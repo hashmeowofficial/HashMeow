@@ -100,7 +100,7 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4"
           >
             <motion.a
-              href="https://sentx.io"
+              href="https://sentx.io/launchpad/hashmeow-public"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -3 }}

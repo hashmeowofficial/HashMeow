@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HashMeow - The Cutest Pixel Meme Coin 🐱",
-  description: "Join the HashMeow revolution! A pixel art meme coin with mini games and awesome community!",
-  keywords: ["HashMeow", "meme coin", "crypto", "pixel art", "blockchain"],
+  title: "HashMeow - Pixel Meme NFT on Hedera",
+  description: "HashMeow - A pixel meme project on Hedera Network. Built for fun, community, and awareness.",
+  keywords: ["HashMeow", "Hedera", "HBAR", "NFT", "pixel art", "meme"],
+  icons: {
+    icon: '/images/Main.PNG',
+    shortcut: '/images/Main.PNG',
+    apple: '/images/Main.PNG',
+  },
 };
 
 export default function RootLayout({
@@ -19,6 +24,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" 
           rel="stylesheet" 
         />
+        <link rel="icon" href="/images/Main.PNG" type="image/png" />
       </head>
       <body className="bg-pixel-bg text-white overflow-x-hidden">
         {children}

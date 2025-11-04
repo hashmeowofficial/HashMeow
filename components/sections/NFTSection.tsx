@@ -64,7 +64,7 @@ export default function NFTSection() {
         >
           {[
             { label: 'TOTAL SUPPLY', value: '10K' },
-            { label: 'PRICE', value: '7 HBAR' },
+            { label: 'PRICE', value: '9 HBAR' },
           ].map((stat, i) => (
             <div
               key={i}
@@ -150,7 +150,7 @@ export default function NFTSection() {
                 MINT PRICE
               </div>
               <div className="font-pixel text-5xl text-pixel-yellow mb-4">
-                7 HBAR
+                9 HBAR
               </div>
               <div className="text-pixel-green text-sm">
                 Affordable for everyone
@@ -158,7 +158,7 @@ export default function NFTSection() {
             </div>
 
             <motion.a
-              href="https://sentx.io"
+              href="https://sentx.io/launchpad/hashmeow-public"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
