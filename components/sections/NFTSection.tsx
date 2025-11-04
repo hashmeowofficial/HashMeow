@@ -63,7 +63,7 @@ export default function NFTSection() {
           className="grid grid-cols-2 gap-6 max-w-2xl mx-auto mb-16"
         >
           {[
-            { label: 'TOTAL SUPPLY', value: '10,000' },
+            { label: 'TOTAL SUPPLY', value: '10K' },
             { label: 'PRICE', value: '7 HBAR' },
           ].map((stat, i) => (
             <div
